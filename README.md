@@ -51,3 +51,56 @@ Matplotlib
 Seaborn
 
 Scikit-learn
+
+📁 Project Structure
+iris-flower-classification/
+│
+├── iris_flower_classification.py
+├── Flower_Dataset.zip
+└── README.md
+
+▶️ How to Run the Project
+🔹 Google Colab
+
+Upload both files:
+
+iris_flower_classification.py
+
+Flower_Dataset.zip
+
+Run:
+
+!python iris_flower_classification.py
+
+🔹 Local Machine
+
+Clone the repository or download files
+
+Install dependencies:
+
+pip install pandas matplotlib seaborn scikit-learn
+
+
+Run the script:
+
+python iris_flower_classification.py
+
+📊 Output
+
+Model accuracy score
+
+Classification report (Precision, Recall, F1-score)
+
+Confusion matrix visualization
+
+Typical accuracy achieved: 96% – 100%
+
+✅ Conclusion
+
+The Logistic Regression model successfully classifies Iris flower species with high accuracy.
+This project demonstrates the complete machine learning workflow including data handling, model training, evaluation, and visualization.
+
+📌 Author
+
+Harsh
+Data Science Intern
